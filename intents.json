@@ -1,0 +1,210 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "hy",
+        "hi"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "hit_info",
+      "patterns": [
+        "Tell me about Haldia Institute of Technology",
+        "Information about HIT",
+        "HIT Haldia details"
+      ],
+      "responses": [
+        "Haldia Institute of Technology (HIT) is an autonomous engineering institute in Haldia, West Bengal, India.",
+        "It is approved by AICTE and affiliated with MAKAUT.",
+        "HIT offers B.Tech, M.Tech, MCA, and MBA courses.",
+        "The campus includes administrative blocks, academic blocks, student hostels, library, and various facilities."
+      ]
+    },
+    {
+      "tag": "hit_courses",
+      "patterns": [
+        "What courses does HIT offer?",
+        "HIT programs",
+        "Courses at Haldia Institute of Technology"
+      ],
+      "responses": [
+        "HIT offers 13 B.Tech, 5 M.Tech, MCA, and MBA courses.",
+        "Courses are available in various disciplines such as Engineering, Applied Sciences, Humanities, Chemical, Food & BioTechnology, Electronics, Computer & Informatics, and Management & Social Sciences."
+      ]
+    },
+    {
+      "tag": "hit_accreditation",
+      "patterns": [
+        "Is HIT accredited?",
+        "Accreditation status of HIT",
+        "HIT NAAC accreditation"
+      ],
+      "responses": [
+        "Haldia Institute of Technology is accredited by NAAC with an 'A' grade in 2018 with a CGPA of 3.31 on a 4-point scale.",
+        "Most of the courses are provisionally accredited by NBA."
+      ]
+    },
+    {
+      "tag": "hit_campus",
+      "patterns": [
+        "Tell me about HIT campus",
+        "HIT facilities",
+        "Campus details"
+      ],
+      "responses": [
+        "HIT has a campus of approximately 37 acres with administrative blocks, academic blocks, student hostels, library, departmental store, post office, laundry, medical store, bank, ATM, restaurant, open-air cafeteria, and recreational building.",
+        "Sports facilities include a football ground, basketball court, and cricket ground."
+      ]
+    },
+    {
+      "tag": "hit_hostels",
+      "patterns": [
+        "Tell me about HIT hostels",
+        "HIT accommodation",
+        "Hostel facilities at Haldia Institute of Technology"
+      ],
+      "responses": [
+        "HIT provides separate housing facilities (hostels) for boys and girls.",
+        "Boys Hostels: Newton Hall of Residence, Galileo Hall of Residence, Ranichak Boys Hostel, Balaji Boys Hostel.",
+        "Girls Hostels: Tamalika Ponda Seth Hall of Residence, Matangini Hall of Residence."
+      ]
+    },
+    {
+      "tag": "hit_hostels",
+      "patterns": [
+        "Hostel charges",
+        "Hostel fee and food",
+        "Hostel fee and fooding",
+        "HIT loging and fooding"
+      ],
+      "responses": [
+        "The hostel fee is around 12,000 rupees per semester, which is around 2,000 rupees per month. This is for lodging only. There is also a 5,000 rupee kasul fee that is returned after completing the degree . The mess at Haldia Institute of Technology (HIT) offers a variety of food at different prices. Students pay for what they eat at the end of the month."
+      ]
+    },
+    {
+      "tag": "hit_departments",
+      "patterns": [
+        "HIT schools and departments",
+        "Academic departments at Haldia Institute of Technology",
+        "Undergraduate departments at HIT"
+      ],
+      "responses": [
+        "HIT has schools and departments including School of Engineering, School of Applied Sciences & Humanities, School of Chemical, Food & BioTechnology, and School of Electronics, Computer & Informatics.",
+        "Undergraduate departments include Mechanical Engineering, Electrical Engineering, Applied Electronics and Instrumentation Engineering, Civil Engineering, Applied Sciences, Chemical Engineering, Biotechnology, Food Technology, Computer Science and Engineering, Information Technology, and Electronic and Communications Engineering."
+      ]
+    },
+    {
+      "tag": "hit_student_life",
+      "patterns": [
+        "HIT student life",
+        "Cultural and non-academic activities at Haldia Institute of Technology",
+        "Student clubs at HIT"
+      ],
+      "responses": [
+        "HIT hosts the annual Science & Technology festival 'PRAYUKTI' and the yearly cultural festival 'RIVIERA' held in May-June.",
+        "Student life involves various cultural and non-academic activities, and students participate in clubs and festivals."
+      ]
+    },
+    {
+      "tag": "hit_ranking",
+      "patterns": [
+        "HIT ranking in 2022",
+        "Collage ranking",
+        "NIRF ranking of Haldia Institute of Technology in 2022",
+        "Engineering college rankings in 2022"
+      ],
+      "responses": [
+        "HIT is ranked in the 251 - 300 band among engineering colleges in India by the National Institutional Ranking Framework (NIRF) in 2022."
+      ]
+    },
+    {
+      "tag": "hit_admission_process",
+      "patterns": [
+        "HIT B.Tech admission process",
+        "How to get into Haldia Institute of Technology for B.Tech?",
+        "WBJEE and JEE(main) for HIT admission"
+      ],
+      "responses": [
+        "For B.Tech course, one has to clear the state-level entrance exam WBJEE or JEE(main) and JELET is the exam for 2nd-year lateral entry B.Tech course."
+      ]
+    },
+    {
+      "tag": "placement_info",
+      "patterns": [
+        "Chemical Engineering placement at HIT",
+        "HIT Chemical Engineering placement",
+        "Average package in Chemical Engineering at HIT",
+        "Chemical Engineering Department placement",
+        "Best branch"
+      ],
+      "responses": [
+        "Haldia Institute of Technology (HIT) provides the best placement in the Chemical Engineering Department, with an average package of 8 - 9 LPA.",
+        "Our commitment to academic excellence and industry relevance ensures that our students secure rewarding opportunities in the field of Chemical Engineering."
+      ]
+    },
+    {
+      "tag": "placement_companies",
+      "patterns": [
+        "Companies visited in 2023-2024",
+        "Placements in 2023-2024",
+        "Which companies visited HIT recently?"
+      ],
+      "responses": [
+        "In the academic year 2023-2024, prominent companies that visited Haldia Institute of Technology include Cognizant, Infosys, Wisdom LAB, IBM, Tech Mahindra, CS Automation, Jubilant Foodworks, Axis bank, Accenture, Just Dial, Berger Paints, and Huawei. You can check the complete list <a href='https://hithaldia.ac.in/wp-content/uploads/2021/08/Frequent-recruiters-all-dept.pdf' target='_blank'>here</a>."
+      ]
+    },
+    {
+      "tag": "placement_companies_2023",
+      "patterns": [
+        "Companies visited in 2023",
+        "Placements in 2023",
+        "Tell me about the companies in 2023"
+      ],
+      "responses": [
+        "In the academic year 2022-2023, companies that visited HIT for placements include CTS, Infosys, Wipro, Accenture, Hitech, Ultratech Cement, Berger Paints, Karvy, HSBC, Adani Wilmar, AIS, Kreeti Technologies, XEBIA, Huwaei, and Learning Mate. You can check the complete list <a href='https://hithaldia.ac.in/wp-content/uploads/2021/08/Frequent-recruiters-all-dept.pdf' target='_blank'>here</a>."
+      ]
+    },
+    {
+      "tag": "placement_companies_others",
+      "patterns": [
+        "Other companies",
+        "Companies in other years",
+        "List of companies in TCS, HPL, IBM"
+      ],
+      "responses": [
+        "In addition to the mentioned years, other notable companies that visited HIT include TCS, HPL, and IBM for placements.",
+        "You can check the complete list  <a href='https://hithaldia.ac.in/wp-content/uploads/2021/08/Frequent-recruiters-all-dept.pdf' target='_blank'>here</a>."
+      ]
+    },
+    {
+
+    }
+  ]
+}
